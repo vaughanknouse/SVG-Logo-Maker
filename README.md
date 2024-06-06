@@ -1,1 +1,99 @@
-# SVG-Logo-Maker
+# SVG Logo Maker
+
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+
+## Description
+
+***
+
+## Table of Contents
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [Test Instructions](#test-instructions)
+- [License](#license)
+- [Questions](#questions)
+
+
+## User Story
+
+```md
+AS a freelance web developer
+I WANT to generate a simple logo for my projects
+SO THAT I don't have to pay a graphic designer
+```
+
+## Acceptance Criteria
+
+```md
+GIVEN a command-line application that accepts user input
+WHEN I am prompted for text
+THEN I can enter up to three characters
+WHEN I am prompted for the text color
+THEN I can enter a color keyword (OR a hexadecimal number)
+WHEN I am prompted for a shape
+THEN I am presented with a list of shapes to choose from: circle, triangle, and square
+WHEN I am prompted for the shape's color
+THEN I can enter a color keyword (OR a hexadecimal number)
+WHEN I have entered input for all the prompts
+THEN an SVG file is created named `logo.svg`
+AND the output text "Generated logo.svg" is printed in the command line
+WHEN I open the `logo.svg` file in a browser
+THEN I am shown a 300x200 pixel image that matches the criteria I entered
+```
+
+## Installation
+To install the SVG Logo Maker, follow the following steps:
+1.	Clone the repository to your local machine: `git clone https://github.com/vaughanknouse/SVG-Logo-Maker.git`.
+2.	Ensure that the current version of Node.js is installed. 
+3.	Open the cloned repository in a CLI, such as Visual Studio Code.
+4.	Navigate to the project directory in your terminal. 
+5.	Initialize a project with `package.json` by typing `npm init -y` in the terminal.
+6.	Install `inquirer` version 8.2.4 by typing `npm inquirer@8.2.4` in the terminal.
+7.	Install other necessary dependencies by typing `npm i` in the command line to ensure that the `node-modules` folder is operating on your local device. 
+
+
+## Usage
+To use the SVG Logo Maker, follow the following steps:
+1.	Once the dependencies are installed, initialize the application with node.js by running the `index.js` file using the following command: `node index.js`.
+2.	The application will prompt you to enter information about your project, such as the project title, description, installation instructions, usage information, contribution guidelines, test instructions, license, GitHub username, and email address.
+3.	Follow the `npm inquirer` prompt questions through sequential order within the directory and provide details for each section of the README.md file.
+4.	After providing all the necessary information, the application will generate a professional README.md file named `README-generated.md` based on your input.
+5.	Once the new README is generated, review it to ensure all the information is correctly included in the different sections.
+6.	At your discretion, you may customize the `README-generated.md` file to fit your project’s needs. 
+7.	In the future, you may also alter the prompted questions within the `index.js` and `generateMarkdown.js` to suit your needs. 
+
+
+### Screenshots:
+***The following screenshots demonstrate the application's functionality and appearance:
+
+![Shows screenshot of the prompts made to the user via the inquirer command line interface.](Assets/Images/user-input-screenshot.png)
+
+![Shows screenshot of a portion of a sample README.md file generated via the application.](Assets/Images/README-generated-screenshot.png)
+
+### Walkthrough Video Link: 
+***To further demonstrate the functionality and typical user flow of the Node.js README Generator application, please view the following walkthrough video on Google Drive: [Walkthrough Video Link](https://drive.google.com/file/d/1OfjaBpPFfmCyQXZWPAMijFJ0GypcDJeE/view?usp=sharing)
+
+
+## Credits
+***Used the following sources as tutorials and guidelines:
+
+Inquirer npm Webpage: https://www.npmjs.com/package/inquirer 
+
+Professional README Guide Webpage: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+
+Video Submission Guide Webpage: https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide
+
+Also utilized the XPert Learning assistant for some portions of my code:
+https://bootcampspot.instructure.com/courses/5293/external_tools/313
+
+## Test Instructions
+
+## License
+This project is licensed under the MIT license. For more information, please visit [this link](https://opensource.org/licenses/MIT).
+
+## Questions
+For any questions or feedback, please contact me via email at vaughanknouse@gmail.com.
+Additionally, you can find me on GitHub at [vaughanknouse](https://github.com/vaughanknouse).
