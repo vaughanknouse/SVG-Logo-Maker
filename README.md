@@ -51,7 +51,7 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 To install the SVG Logo Maker, follow the following steps:
 1.	Clone the repository to your local machine: `git clone https://github.com/vaughanknouse/SVG-Logo-Maker.git`.
 2.	Ensure that the current version of Node.js is installed. 
-3.	Open the cloned repository in a CLI, such as Visual Studio Code.
+3.	Open the cloned repository in a CLI, such as Visual Studio (VS) Code.
 4.	Navigate to the project directory in your terminal. 
 5.	Initialize a project with `package.json` by typing `npm init -y` in the terminal where  project files will be stored.
 6.	Install `inquirer` version 8.2.4 by typing `npm i inquirer@8.2.4` in the terminal for information gathering.
@@ -62,12 +62,13 @@ To install the SVG Logo Maker, follow the following steps:
 ## Usage
 To use the SVG Logo Maker, follow the following steps:
 1.	Once the dependencies are installed, initialize the application with node.js by running the `index.js` file using the following command in the terminal: `node index.js`.
-2.	The application will prompt you to enter information about your project, such as the project title, description, installation instructions, usage information, contribution guidelines, test instructions, license, GitHub username, and email address.
-3.	Follow the `npm inquirer` prompt questions through sequential order within the directory and provide details for each section of the README.md file.
-4.	After providing all the necessary information, the application will generate a professional README.md file named `README-generated.md` based on your input.
-5.	Once the new README is generated, review it to ensure all the information is correctly included in the different sections.
-6.	At your discretion, you may customize the `README-generated.md` file to fit your project’s needs. 
-7.	In the future, you may also alter the prompted questions within the `index.js` and `generateMarkdown.js` to suit your needs. 
+2.	The application will take you through a series of questions to customize your logo and prompt you to enter information about your logo, such as the text for the logo (up to 3 characters), a color keyword or hexadecimal number for the text color, a shape from the list (circle, square, triangle), and a color keyword or hexadecimal number for the shape color.
+3.	Follow the `npm inquirer` prompt questions through sequential order within the directory.
+4.	After all of the prompt questions have been answered properly, the application will generate your new logo in a `logo.svg` file based on your input and a message will display on the command line indicating that your logo has been generated.
+5.	Once the new `logo.svg` file is generated, find your newly generated SVG file and review the file to see your generated logo.
+6. At your discretion, you mae rename the `logo.svg` file to the file name of your choice.
+7. Regarding future use, you may alter the prompted questions within the `index.js` file to best suit your needs. 
+8. For unit testing instructions, navigate to the "Test Instructions" section of the README. 
 
 
 ### Screenshots:
