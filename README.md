@@ -102,7 +102,7 @@ Also utilized the XPert Learning assistant for some portions of my code:
 https://bootcampspot.instructure.com/courses/5293/external_tools/313
 
 ## Test Instructions
-To perform unit testing using Jest, access the terminal and execute the command `npm run test`. This command runs the test file with the corresponding SVG file with given choices to ensure that the application adheres to the specified requirements and standards. As of now, there is 1 test suite with 3 tests. The test suite verifies that the `render() method generates the correct string for specified shape color in the associated SVG file. 
+To perform unit testing using Jest, access the terminal and execute the command `npm run test`. This command runs the test file with the corresponding SVG file with given choices to ensure that the application adheres to the specified requirements and standards. As of now, there is 1 test suite with 3 tests. The test suite verifies that the `render()` method generates the correct string for specified shape color in the associated SVG file. 
 
 ## License
 This project is licensed under the MIT license. For more information, please visit [this link](https://opensource.org/licenses/MIT).
