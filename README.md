@@ -4,17 +4,20 @@
 
 ## Description
 
-***
-
 ## Table of Contents
-- [User Story](#user-story)
-- [Acceptance Criteria](#acceptance-criteria)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [Test Instructions](#test-instructions)
-- [License](#license)
-- [Questions](#questions)
+- [SVG Logo Maker](#svg-logo-maker)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [User Story](#user-story)
+  - [Acceptance Criteria](#acceptance-criteria)
+  - [Installation](#installation)
+  - [Usage](#usage)
+    - [Screenshots:](#screenshots)
+    - [Walkthrough Video Link:](#walkthrough-video-link)
+  - [Credits](#credits)
+  - [Test Instructions](#test-instructions)
+  - [License](#license)
+  - [Questions](#questions)
 
 
 ## User Story
@@ -50,14 +53,15 @@ To install the SVG Logo Maker, follow the following steps:
 2.	Ensure that the current version of Node.js is installed. 
 3.	Open the cloned repository in a CLI, such as Visual Studio Code.
 4.	Navigate to the project directory in your terminal. 
-5.	Initialize a project with `package.json` by typing `npm init -y` in the terminal.
-6.	Install `inquirer` version 8.2.4 by typing `npm inquirer@8.2.4` in the terminal.
-7.	Install other necessary dependencies by typing `npm i` in the command line to ensure that the `node-modules` folder is operating on your local device. 
+5.	Initialize a project with `package.json` by typing `npm init -y` in the terminal where  project files will be stored.
+6.	Install `inquirer` version 8.2.4 by typing `npm i inquirer@8.2.4` in the terminal for information gathering.
+7. Install the latest version of Jest by typing `npm i jest` for testing.
+8.	Install other necessary dependencies by typing `npm i` in the command line to ensure that the `node-modules` folder is operating on your local device. 
 
 
 ## Usage
 To use the SVG Logo Maker, follow the following steps:
-1.	Once the dependencies are installed, initialize the application with node.js by running the `index.js` file using the following command: `node index.js`.
+1.	Once the dependencies are installed, initialize the application with node.js by running the `index.js` file using the following command in the terminal: `node index.js`.
 2.	The application will prompt you to enter information about your project, such as the project title, description, installation instructions, usage information, contribution guidelines, test instructions, license, GitHub username, and email address.
 3.	Follow the `npm inquirer` prompt questions through sequential order within the directory and provide details for each section of the README.md file.
 4.	After providing all the necessary information, the application will generate a professional README.md file named `README-generated.md` based on your input.
@@ -78,9 +82,17 @@ To use the SVG Logo Maker, follow the following steps:
 
 
 ## Credits
-***Used the following sources as tutorials and guidelines:
+Used the following sources as tutorials and guidelines:
 
 Inquirer npm Webpage: https://www.npmjs.com/package/inquirer 
+
+Jest Webpage: https://jestjs.io/docs/getting-started 
+
+SVG Tutorial Webpage: https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial 
+
+Basic SVG Shapes Webpage: https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes 
+
+Text in SVG Webpage: https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Texts 
 
 Professional README Guide Webpage: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
@@ -90,6 +102,7 @@ Also utilized the XPert Learning assistant for some portions of my code:
 https://bootcampspot.instructure.com/courses/5293/external_tools/313
 
 ## Test Instructions
+To perform unit testing using Jest, access the terminal and execute the command `npm run test`. This command runs the test file with the corresponding SVG file with given choices to ensure that the application adheres to the specified requirements and standards. As of now, there is 1 test suite with 3 tests. The test suite verifies that the `render() method generates the correct string for specified shape color in the associated SVG file. 
 
 ## License
 This project is licensed under the MIT license. For more information, please visit [this link](https://opensource.org/licenses/MIT).
