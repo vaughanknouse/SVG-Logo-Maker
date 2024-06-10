@@ -3,6 +3,14 @@
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ## Description
+Creating a well-designed logo for a project often requires the need for graphic design skills, software, or an individual who specializes in graphic design, which can be expensive, inefficient, and time consuming. To address this issue, this week’s UT Austin Coding Bootcamp challenge involved building a Node.js command-line application from scratch to allow freelance web developers to create simple logos for clients and personal projects so they may forego paying a graphic designer.
+
+The SVG Logo Maker is a Node.js command-line application which generates simple logos in an SVG format.   Scalable Vector Graphics (SVG) is a versatile and scalable image format that allows for high-quality graphics, making it ideal for logos that need to be displayed across various platforms and sizes. The SVG Logo Maker is a tool that simplifies the process of creating logos by dynamically generating a logo in an SVG format based on a user’s input, utilizing the Inquirer package for an interactive and user-friendly experience that is simple and straightforward making it accessibly for developers of all skill levels. Through interactions with the user via prompts provided by the Inquirer package, the user inputs their preferences as to what their logo will look like, including the shape of their logo (circle, triangle, or square), color of the shape, the text they would like displayed on their logo, and the color of the text. Once the user answers all of the prompts, an SVG file is written and saved using their selections to generate a logo. This application also incorporates unit testing through the use of the Jest package, which ensures the code’s correctness. The single test suite consists of three tests, verifying that the application produces accurate shapes and colors.
+
+The motivation for creating this application was to allow users to quickly and easily generate logos through the use of SVG files through the command line. The SVG Logo Maker also allows users to customize their logos by choosing shapes, colors, and text, enabling them to create unique designs that reflect their brand or project identity.
+
+Overall, the SVG Logo Maker application addresses the need for a simple, cost-effective, and customizable solution for SVG logo creation, empowering users to create logos for their projects with ease while providing participants with an opportunity to demonstrate their technical skills and creativity in full-stack application development.
+
 
 ## Table of Contents
 - [SVG Logo Maker](#svg-logo-maker)
