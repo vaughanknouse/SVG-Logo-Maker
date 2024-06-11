@@ -87,7 +87,7 @@ The following screenshots demonstrate the application's functionality and appear
 ![Shows screenshot of an example  logo generated via the application.](assets/images/generated-logo-screenshot.png)
 
 ### Walkthrough Video Link: 
-***To further demonstrate the functionality and typical user flow of the Node.js SVG Logo Maker application, please view the following walkthrough video on Google Drive: [Walkthrough Video Link](https://drive.google.com/file/d/1OfjaBpPFfmCyQXZWPAMijFJ0GypcDJeE/view?usp=sharing)
+To further demonstrate the functionality and typical user flow of the Node.js SVG Logo Maker application, please view the following walkthrough video on Google Drive: [Walkthrough Video Link](https://drive.google.com/file/d/1wCLX0H3KfknXotUFoKQl-URCkGinjDix/view?usp=sharing)
 
 
 ## Credits
