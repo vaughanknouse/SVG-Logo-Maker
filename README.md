@@ -82,9 +82,9 @@ To use the SVG Logo Maker, follow the following steps:
 ### Screenshots:
 The following screenshots demonstrate the application's functionality and appearance:
 
-![Shows screenshot of the prompts made to the user via the inquirer command line interface.](Assets/Images/user-input-screenshot.png)
+![Shows screenshot of the prompts made to the user via the inquirer command line interface.](assets/images/user-input-screenshot.png)
 
-![Shows screenshot of an example  logo generated via the application.](Assets/Images/generated-logo-screenshot.png)
+![Shows screenshot of an example  logo generated via the application.](assets/images/generated-logo-screenshot.png)
 
 ### Walkthrough Video Link: 
 ***To further demonstrate the functionality and typical user flow of the Node.js SVG Logo Maker application, please view the following walkthrough video on Google Drive: [Walkthrough Video Link](https://drive.google.com/file/d/1OfjaBpPFfmCyQXZWPAMijFJ0GypcDJeE/view?usp=sharing)
@@ -113,7 +113,7 @@ https://bootcampspot.instructure.com/courses/5293/external_tools/313
 ## Test Instructions
 To perform unit testing using Jest, access the terminal and execute the command `npm run test`. This command runs the test file with the corresponding SVG file with given choices to ensure that the application adheres to the specified requirements and standards. As of now, there is 1 test suite with 3 tests. The test suite verifies that the `render()` method generates the correct string for specified shape color in the associated SVG file. 
 
-![Shows screenshot of the passed testing using Jest.](Assets/Images/jest-testing-screenshot.png)
+![Shows screenshot of the passed testing using Jest.](assets/images/jest-testing-screenshot.png)
 
 ## License
 This project is licensed under the MIT license. For more information, please visit [this link](https://opensource.org/licenses/MIT).
